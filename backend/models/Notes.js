@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+const {Schema} = require9('mongoose')
 const NotesSchema = new Schema({
 
 title:{
@@ -28,4 +28,4 @@ date:{
 })
 
 
-module.exports= mongoose.model("Notes", NotesSchema)
+module.exports= mongoose.model("notes", NotesSchema)
